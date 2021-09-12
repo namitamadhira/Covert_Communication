@@ -1,0 +1,4 @@
+To run the 'encode_message.py' file:
+	The code uses the 'text file.txt' file, so ensure that it is located in the same folder as the encode_message.py file.
+To run the 'decode_message.py':
+	Ensure that the "Welcome to CSEC47 Covert Communications.txt" file is in the same folder as the decode_message.py program file.
