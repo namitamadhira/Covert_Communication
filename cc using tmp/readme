@@ -1,1 +1,22 @@
+Covert Communication - Proof of concept - Readme
+
+The program files are desined to be run in bash.
+	Start by running the 'receiver.sh' program followed by 'sender.sh' program.
+
+Basic concept of the program:
+	The 'sendflag' flag indicates that the sender is ready to send data.
+	The 'receiveflag' flag indicates that the receiver has read the data, which allows the sender to send the next bit of data.
+	The flags make use of file permissions as the indicative variables.
+
+Sending time calculation:
+	The transmission time was measured by the difference 
+	between the start time and end time (in nanoseconds).
+
+	(1 second = 10^9 nanoseconds)
+	The time taken for transmission is 0.004802991 seconds.
+
+	(Number of bits = 8; bits/second calculation = number of bits/time in seconds).
+	The bits per second rate is ~1,665 bits/second.
+
+
 
